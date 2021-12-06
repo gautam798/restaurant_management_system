@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//https://www.geeksforgeeks.org/how-to-print-colored-text-in-java-console/
+
 public class project{
   public static void main(String[] args){
 //password protection segement
@@ -133,9 +135,9 @@ public class project{
             System.out.println("Wrong password , Please Try Again :");
             pass= scan.next();
           }
-          int total= price+price2;
+//          int total= price+price2 ;
           System.out.println("You order is confirmed ");
-          System.out.println("Total bill amount is: RS"+total);
+//          System.out.println("Total bill amount is: RS"+total);
           System.out.println("Thank You! ");
 
 
